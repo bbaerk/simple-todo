@@ -59,8 +59,8 @@ onDestroy(() => disableShortcut('togglePrivacyMode'));
 
 <main>
   <AppTopBar />
-
   <div class="AppContent">
+  <em> Do the hard work, especially when you don't feel like it! </em><br>
     <AppHeader
       class="AppHeader"
       on:addtodo={() => setShowTodoForm(true)}

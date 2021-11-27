@@ -10,10 +10,8 @@ $: hasDoneTodos = $todos.some((todo) => todo.done);
 const dispatch = createEventDispatcher();
 
 const today = dayjs().format('dddd, MMMM D');
-const user = 'Adonis';
 </script>
 
-<em> Do the deep work, especially when you don't feel like it. {user}</em><br>
 <header class={$$props.class}>
   <h1>{today}</h1>
 
