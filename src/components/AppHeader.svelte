@@ -13,8 +13,8 @@ const today = dayjs().format('dddd, MMMM D');
 const user = 'Adonis';
 </script>
 
+<em> Do the deep work, especially when you don't feel like it. {user}</em><br>
 <header class={$$props.class}>
-  <em> Do the deep work, especially when you don't feel like it. {user}</em><br>
   <h1>{today}</h1>
 
   <div class="ButtonsWrapper">
