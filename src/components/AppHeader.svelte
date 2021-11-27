@@ -14,8 +14,8 @@ const user = 'Adonis';
 </script>
 
 <header class={$$props.class}>
+  <em> Do the deep work, especially when you don't feel like it. {user}</em><br>
   <h1>{today}</h1>
-  <em> Remember to take a break every 1h 15min, {user} </em>
 
   <div class="ButtonsWrapper">
     <Button primary on:click={() => dispatch('addtodo')}>Add Todo</Button>
