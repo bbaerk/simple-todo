@@ -10,6 +10,9 @@ $: isUnsplashImage = $settings.backgroundImage?.user_link;
     Built by <a href="https://arnellebalane.com" target="_blank" rel="noopener noreferrer">Arnelle Balane</a> &middot;
   </small>
 
+  <small>
+    Do the hard work, especially when you don't feel like it! Adonis.
+  </small>
   {#if isUnsplashImage}
     <small>
       Photo by
