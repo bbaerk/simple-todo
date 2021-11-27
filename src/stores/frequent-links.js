@@ -8,3 +8,4 @@ function createStore() {
 }
 
 export const frequentLinks = createStore();
+export const frequentLinksSupported = false;
