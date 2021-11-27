@@ -10,10 +10,12 @@ $: hasDoneTodos = $todos.some((todo) => todo.done);
 const dispatch = createEventDispatcher();
 
 const today = dayjs().format('dddd, MMMM D');
+const user = 'Adonis';
 </script>
 
 <header class={$$props.class}>
   <h1>{today}</h1>
+  <em> Remember to take a break every 1h 15min, {user} </em>
 
   <div class="ButtonsWrapper">
     <Button primary on:click={() => dispatch('addtodo')}>Add Todo</Button>

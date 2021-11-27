@@ -36,7 +36,7 @@ $: hasSeenChangeLogs = $version === import.meta.env.APP_VERSION;
 $: hasQuickLinks = $settings.quickLinks.length > 0;
 $: showFrequentLinks = frequentLinksSupported && $frequentLinks.length > 0 && $settings.showFrequentLinks;
 
-const showChromeWebstoreButton = import.meta.env.SNOWPACK_PUBLIC_IS_WEB_BUILD === 'true';
+const showChromeWebstoreButton = false;
 
 const handleSettingsChange = (event) => settings.preview(event.detail);
 const handleSettingsSubmit = (event) => {
